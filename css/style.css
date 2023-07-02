@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #928cff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px; /* espace entre les dives*/
+}
+.inputs{
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 4px;
+}
+.data #inp{
+    padding: 4px;
+    outline: none;
+    border: 1px solid #928cff;
+}
+.data #btn{
+    background: #928cff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start; /* bach koul div yakbar (height) 3la 7ssab lmou7tawa ta3ou*/
+}
+.box{
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.item{
+    background: #928cff;
+    padding: 10px;
+    margin: 4px;
+    cursor: move;
+    color: #fff;
+}
